@@ -1,0 +1,95 @@
+body {
+    background-color: #fdd318; /* Light yellow background */
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #FF4081; /* Pink */
+    font-size: 60px;
+    font-weight: 8000;
+}
+
+#story-parts {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#view-story, #random-story, #reset-story {
+    margin-top: 20px;
+}
+
+#story-output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333; /* Dark gray text */
+}
+
+/* Custom styles for colorful toy theme */
+button#part1 {
+    background-color: #d231e0; /* Gold */
+}
+button#part1:hover{
+    background-color: #ae2fb9;
+}
+
+button#part2 {
+    background-color: #00BFFF; /* Hot pink */
+}
+button#part2:hover {
+    background-color: #1fa7d4; /* Hot pink */
+}
+
+button#part3 {
+    background-color: #15ff5f; /* Deep sky blue */
+}
+button#part3:hover {
+    background-color: #3cc266; /* Deep sky blue */
+}
+
+button#part4 {
+    background-color: #FFA500; /* Orange */
+}
+button#part4:hover {
+    background-color: #ff7300; /* Orange */
+}
+
+button#part5 {
+    background-color: #9370DB; /* Medium purple */
+}
+
+button#part5:hover {
+    background-color: #4d2d8d; /* Medium purple */
+}
+
+button#random-story{
+    background-color: #00BFFF;
+}
+button#random-story:hover{
+    background-color:#1fa7d4;
+}
+
+button#reset-story{
+    background-color: rgb(222, 19, 19);
+}
+button#reset-story:hover{
+    background-color: rgb(182, 30, 30);
+}
